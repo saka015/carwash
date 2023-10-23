@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+
+.navbar {
+  justify-content: space-between;
+  display: flex;
+}
+.nav-btns {
+  padding: 5px 15px;
+  color: white;
+}
+
+.nav-btns:hover {
+  background-color: white;
+  --tw-bg-opacity: 1.5;
+  border: inset 1px solid rgb(139 92 246 / var(--tw-bg-opacity));
+  color: rgb(139 92 246 / var(--tw-bg-opacity));
+}
+
+.left {
+}
+
+.appointment {
+  padding: 10px 20px;
+  border-radius: 120px;
+  --tw-bg-opacity: 1;
+  border: 1px solid rgb(139 92 246 / var(--tw-bg-opacity));
+}
+
+li:hover {
+  --tw-bg-opacity: 1.5;
+  color: rgb(139 92 246 / var(--tw-bg-opacity));
+}
+
+.appointment:hover {
+  color: white;
+  --tw-bg-opacity: 1;
+  background-color: rgb(139 92 246 / var(--tw-bg-opacity));
+}
+
+.abt-p {
+  word-break: break-all;
+}
+
+.about {
+  justify-content: space-between;
+}
