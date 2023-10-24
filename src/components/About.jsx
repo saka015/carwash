@@ -4,7 +4,7 @@ import carwash from '../assets/washcar.jpg'
 
 const About = () => {
   return (
-    <div className="flex about my-12">
+    <div className="flex about my-12 z-7888">
       <div className="left-about mx-20">
         <p className="font-medium">ABOUT</p>
         <h1 className="text-4xl text-center font-semibold mt-2">
