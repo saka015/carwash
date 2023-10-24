@@ -40,7 +40,7 @@ const Services = () => {
           <p className="mt-4 text-center text-white">Bring In & Out Wash</p>
         </div>
         <div className="card ">
-          <img src={card3} alt="" />
+          <img src={card2} alt="" />
           <h1 className="mt-2 w-[100px] text-xl text-center font-semibold text-white ml-[75px]">
             Curbside Express
           </h1>

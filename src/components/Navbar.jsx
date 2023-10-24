@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,9 +12,10 @@ const Navbar = () => {
           <li>OUR WORK</li>
           <li>CONTACT US</li>
         </ul>
-        <button className="nav-btns mt-2 mr-4 bg-violet-500 rounded-full">
-          Get Service
-        </button>
+          {" "}
+          <button className="nav-btns mt-2 mr-4 bg-violet-500 rounded-full">
+            Get Service
+          </button>
         <button className="nav-btns mt-2 mr-4 bg-violet-500 rounded-full">
           Join us
         </button>
