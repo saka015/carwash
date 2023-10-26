@@ -1,0 +1,122 @@
+[
+  {
+    "name": "John Smith",
+    "city": "New York",
+    "hourly_rate": 25.50,
+    "rating": 4.2
+  },
+  {
+    "name": "Emily Johnson",
+    "city": "Los Angeles",
+    "hourly_rate": 28.75,
+    "rating": 3.9
+  },
+  {
+    "name": "Michael Davis",
+    "city": "Chicago",
+    "hourly_rate": 23.00,
+    "rating": 4.5
+  },
+  {
+    "name": "Sarah Wilson",
+    "city": "Houston",
+    "hourly_rate": 20.75,
+    "rating": 4.0
+  },
+  {
+    "name": "David Lee",
+    "city": "San Francisco",
+    "hourly_rate": 30.00,
+    "rating": 4.8
+  },
+  {
+    "name": "Olivia Brown",
+    "city": "Miami",
+    "hourly_rate": 22.25,
+    "rating": 3.7
+  },
+  {
+    "name": "William Martinez",
+    "city": "Dallas",
+    "hourly_rate": 24.75,
+    "rating": 4.2
+  },
+  {
+    "name": "Ava Taylor",
+    "city": "Atlanta",
+    "hourly_rate": 26.50,
+    "rating": 3.5
+  },
+  {
+    "name": "James Johnson",
+    "city": "Phoenix",
+    "hourly_rate": 21.00,
+    "rating": 4.3
+  },
+  {
+    "name": "Sophia Anderson",
+    "city": "Seattle",
+    "hourly_rate": 29.25,
+    "rating": 4.6
+  },
+  {
+    "name": "Daniel Hernandez",
+    "city": "Denver",
+    "hourly_rate": 22.75,
+    "rating": 4.1
+  },
+  {
+    "name": "Emma Davis",
+    "city": "Boston",
+    "hourly_rate": 27.00,
+    "rating": 4.4
+  },
+  {
+    "name": "Liam Wilson",
+    "city": "Philadelphia",
+    "hourly_rate": 23.75,
+    "rating": 3.8
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "city": "Las Vegas",
+    "hourly_rate": 25.25,
+    "rating": 4.7
+  },
+  {
+    "name": "Noah Taylor",
+    "city": "San Diego",
+    "hourly_rate": 27.50,
+    "rating": 3.9
+  },
+  {
+    "name": "Isabella Brown",
+    "city": "Detroit",
+    "hourly_rate": 21.75,
+    "rating": 4.0
+  },
+  {
+    "name": "Mason Smith",
+    "city": "Minneapolis",
+    "hourly_rate": 24.25,
+    "rating": 4.2
+  },
+  {
+    "name": "Sophia White",
+    "city": "Portland",
+    "hourly_rate": 26.00,
+    "rating": 4.6
+  },
+  {
+    "name": "Elijah Moore",
+    "city": "Charlotte",
+    "hourly_rate": 22.00,
+    "rating": 3.7
+  },
+  {
+    "name": "Charlotte Jones",
+    "city": "San Antonio",
+    "hourly_rate": 20.00,
+    "rating": 3.5
+  }
+]
