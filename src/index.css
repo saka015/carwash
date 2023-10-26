@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Styling the scrollbar track */
+::-webkit-scrollbar-track {
+  --tw-bg-opacity: 1.5;
+  background: rgb(139 92 246 / var(--tw-bg-opacity));
+}
+
+/* Styling the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  --tw-bg-opacity: 1.5;
+  background: rgb(139 92 246 / var(--tw-bg-opacity));
+}
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  height: 5px; /* Height of the thumb */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb background color on hover */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb background color on hover */
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track background color */
+  border: 1px solid #ccc; /* Add a border to the track */
+}
+
 body {
 }
 
@@ -30,8 +60,6 @@ body {
   --tw-bg-opacity: 1;
   border: 1px solid rgb(139 92 246 / var(--tw-bg-opacity));
 }
-
-
 
 .cta-btn {
   padding: 10px 20px;
@@ -157,4 +185,15 @@ input:focus {
   --tw-bg-opacity: 1;
   border: 1px solid rgb(139 92 246 / var(--tw-bg-opacity));
 }
-
+.contact-form{
+  margin-top: 8rem;
+  margin-left: 4rem;
+  --tw-bg-opacity: 1;
+  border: 1px solid rgb(139 92 246 / var(--tw-bg-opacity));
+  height: 380px;
+  width: 400px;
+}
+.active{
+  --tw-bg-opacity: 1;
+  color: rgb(139 92 246 / var(--tw-bg-opacity));
+}

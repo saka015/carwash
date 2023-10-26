@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 const Cta = () => {
   return (
     <div className="cta  flex gap-x-7  w-full py-10 bg-slate-600 px-12">
@@ -10,9 +12,11 @@ const Cta = () => {
         </h1>
       </div>
       <div className="cta-right">
-        <button className="cta-btn mt-4 font-semibold text-white mr-44">
-          Book Appointment
-        </button>
+        <Link to="/ourservices">
+          <button className="cta-btn mt-4 font-semibold text-white mr-44">
+            Book Appointment
+          </button>
+        </Link>
       </div>
     </div>
   );
