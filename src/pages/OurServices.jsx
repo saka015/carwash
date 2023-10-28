@@ -6,10 +6,33 @@ import data from "../assets/data.json"; // Import JSON data using require
 const OurServices = () => {
   const [servicesData, setServicesData] = useState([]);
 
+  const [searchInput, setSearchInput] = useState("");
+  const [filteredData, setFilteredData] = useState([]);
+
+  useEffect(() => {
+    setFilteredData(servicesData);
+  }, [servicesData]);
+
   useEffect(() => {
     // Set the services data from the imported JSON
     setServicesData(data);
   }, []);
+
+  const handleSearch = (searchText) => {
+    const filtered = servicesData.filter((service) => {
+      const name = service.name.toLowerCase();
+      const city = service.city.toLowerCase();
+      const search = searchText.toLowerCase();
+      return name.includes(search) || city.includes(search);
+    });
+    setFilteredData(filtered);
+  };
+
+  const handleInputChange = (e) => {
+    const text = e.target.value;
+    setSearchInput(text);
+    handleSearch(text);
+  };
 
   return (
     <div className="our-services bg-violet-200">
@@ -23,13 +46,15 @@ const OurServices = () => {
         <input
           className="search-box  w-[400px] h-10 text-slate-600 p-2"
           type="text"
+          onChange={handleInputChange}
+          value={searchInput}
         />
         <MdOutlinePersonSearch className=" text-4xl ml-2 float-right right-0 mr-1 text-violet-600 cursor-pointer" />
       </div>
 
       <div className="services-list mx-12">
         <ul>
-          {servicesData.map((service, index) => (
+          {filteredData.map((service, index) => (
             <li className=" nohover  py-4" key={index}>
               <div className="service-detail flex py-4 bg-violet-100 pb-4">
                 <div className="left-service-detail flex -ml-48">
@@ -43,7 +68,10 @@ const OurServices = () => {
                   <div className="my-1">
                     <h2 className="my-1">${service.hourly_rate}/hr</h2>
                     <h2 className="my-1">
-                      {service.rating} <span className="text-[13px] ml-1 mt-[2px] absolute">⭐</span>
+                      {service.rating}{" "}
+                      <span className="text-[13px] ml-1 mt-[2px] absolute">
+                        ⭐
+                      </span>
                     </h2>
                   </div>
                   <button className="book-now ml-24 absolute  my-3">

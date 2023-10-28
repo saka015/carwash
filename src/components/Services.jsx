@@ -6,7 +6,7 @@ import card3 from "../assets/card3.jpg";
 
 const Services = () => {
   return (
-    <div className="services flex py-8 p-4">
+    <div className="services flex py-8 p-4 ]">
       <div className="left-services ml-4  z-10 text-white">
         <p className="font-medium">WHAT WE DO</p>
         <h1 className="text-4xl  mt-2 w-[250px] font-semibold ">

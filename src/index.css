@@ -41,14 +41,17 @@ body {
 }
 .nav-btns {
   padding: 5px 15px;
+  /* background-color: transparent; */
+  border-radius: 2px;
+  border: inset 1px white solid;
   color: white;
+  transition: all 0.5s;
 }
 
 .nav-btns:hover {
-  background-color: white;
   --tw-bg-opacity: 1.5;
-  border: inset 1px solid rgb(139 92 246 / var(--tw-bg-opacity));
-  color: rgb(139 92 246 / var(--tw-bg-opacity));
+  /* border: inset 1px solid rgb(139 92 246 / var(--tw-bg-opacity));
+  color: rgb(139 92 246 / var(--tw-bg-opacity)); */
 }
 
 .left {
@@ -185,7 +188,7 @@ input:focus {
   --tw-bg-opacity: 1;
   border: 1px solid rgb(139 92 246 / var(--tw-bg-opacity));
 }
-.contact-form{
+.contact-form {
   margin-top: 8rem;
   margin-left: 4rem;
   --tw-bg-opacity: 1;
@@ -193,7 +196,7 @@ input:focus {
   height: 380px;
   width: 400px;
 }
-.active{
+.active {
   --tw-bg-opacity: 1;
   color: rgb(139 92 246 / var(--tw-bg-opacity));
 }

@@ -16,9 +16,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar bg-slate-600 p-2 pb-4">
+    <div className="navbar bg-black p-2 pb-4">
       <Link to="/">
-        <div className="left ml-4 mt-2 text-2xl text-black">LOGO</div>
+        <div className="left ml-4 mt-2 text-2xl text-white">LOGO</div>
       </Link>
       <div className="right flex gap-x-2">
         {/* Conditional Rendering */}
@@ -31,7 +31,7 @@ const Navbar = () => {
               to="/dashboard"
               activeClassName="active"
             >
-              <button className="nav-btns mt-2 mr-4 bg-violet-500 rounded-full">
+              <button className="nav-btns mt-2 mr-4 hover:bg-white hover:text-black font-medium ">
                 Dashboard
               </button>
             </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
               activeClassName="active"
             >
               <button
-                className="nav-btns mt-2 mr-4 bg-green-500 rounded-full"
+                className="nav-btns mt-2 mr-4 hover:bg-white hover:text-black font-medium"
                 onClick={logout}
               >
                 Logout
@@ -80,12 +80,12 @@ const Navbar = () => {
               to="/login"
               activeClassName="active"
             >
-              <button className="nav-btns mt-2 mr-4 bg-violet-500 rounded-full">
+              <button className="nav-btns mt-2 mr-4 hover:bg-white hover:text-black font-medium border border-1 border-white">
                 Join us
               </button>
             </Link>
             <button
-              className="nav-btns mt-2 mr-4 bg-green-500 rounded-full"
+              className="nav-btns mt-2 mr-4 hover:bg-white hover:text-black font-medium border border-1 border-white"
               onClick={login}
             >
               Login
